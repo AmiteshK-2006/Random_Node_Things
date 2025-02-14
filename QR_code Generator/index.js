@@ -13,7 +13,7 @@ inquirer
     const url=answers.URL;
 
     var qr_svg = qr.image(url);
-    qr_svg.pipe(fs.createWriteStream('NIGGA_BALLS_HD.png'));
+    qr_svg.pipe(fs.createWriteStream('QR_code.png'));
 
     // Use user feedback for... whatever!!
   })
